@@ -1,0 +1,12 @@
+﻿MSList.obj : error LNK2019: __imp_glBegin"void __cdecl drawStar(float,float,float,float,float,float)" (?drawStar@@YAXMMMMMM@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: __imp_glClear"void __cdecl initializeOpenGL(void)" (?initializeOpenGL@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: __imp_glColor3f"void __cdecl drawStar(float,float,float,float,float,float)" (?drawStar@@YAXMMMMMM@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: __imp_glEnd"void __cdecl drawStar(float,float,float,float,float,float)" (?drawStar@@YAXMMMMMM@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: __imp_glVertex2f"void __cdecl drawStar(float,float,float,float,float,float)" (?drawStar@@YAXMMMMMM@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: __cdecl Star::Star(float,float,float,float,float,float)" (??0Star@@QEAA@MMMMMM@Z)"void __cdecl createRandomStars(void)" (?createRandomStars@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: __cdecl MSList<class Star *>::MSList<class Star *>(void)" (??0?$MSList@PEAVStar@@@@QEAA@XZ)"void __cdecl `dynamic initializer for 'starList''(void)" (??__EstarList@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: __cdecl MSList<class Star *>::~MSList<class Star *>(void)" (??1?$MSList@PEAVStar@@@@QEAA@XZ)"void __cdecl `dynamic atexit destructor for 'starList''(void)" (??__FstarList@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: int __cdecl MSList<class Star *>::get_size(void)" (?get_size@?$MSList@PEAVStar@@@@QEAAHXZ)"void __cdecl createRandomStars(void)" (?createRandomStars@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: void __cdecl MSList<class Star *>::add(class Star *)" (?add@?$MSList@PEAVStar@@@@QEAAXPEAVStar@@@Z)"void __cdecl createRandomStars(void)" (?createRandomStars@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSList.obj : error LNK2019: "public: class Star * & __cdecl MSList<class Star *>::operator[](int)" (??A?$MSList@PEAVStar@@@@QEAAAEAPEAVStar@@H@Z)"void __cdecl createRandomStars(void)" (?createRandomStars@@YAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\ss\Desktop\Lecture06-HW\x64\Debug\Lecture06-HW.exe : fatal error LNK1120: 11개의 확인할 수 없는 외부 참조입니다.
